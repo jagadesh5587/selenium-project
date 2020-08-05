@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.216653">
+<testcase classname="verify login page" name="login" time="0.213885">
+<system-out><![CDATA[Given user launch the browser and amazon application........................passed
+When user enter "sid" and "5646"............................................passed
+Then user click the login button............................................passed
+Then user verify the homepage...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify login page" name="login_2" time="0.001693">
+<system-out><![CDATA[Given user launch the browser and amazon application........................passed
+When user enter "here" and "5578"...........................................passed
+Then user click the login button............................................passed
+Then user verify the homepage...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="verify login page" name="verify the forgot password" time="0.001075">
+<system-out><![CDATA[Given user launch the browser and amazon application........................passed
+When user enter password....................................................passed
+Then user clicks forgot password............................................passed
+Then user reset password....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
